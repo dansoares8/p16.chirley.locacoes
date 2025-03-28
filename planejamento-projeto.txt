@@ -1,0 +1,4 @@
+- imóveis 
+- locações 
+-- cliente faz a locação, 
+-- tipo de locação (residencial, comercial, curto evento)
