@@ -1,4 +1,5 @@
 - imóveis 
-- locações 
--- cliente faz a locação, 
+- locações
+-- crud locação (nome, endereço, bairro, cidade, cep, uf estado, identificador-agua, matricula-agua, identificador-energia, matrícula-energia, 
+-- cliente faz a locação, nome-proprietario, pdf-doc-imovel)
 -- tipo de locação (residencial, comercial, curto evento)
