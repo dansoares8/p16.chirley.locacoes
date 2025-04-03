@@ -3,4 +3,5 @@
 -- crud locação (nome, endereço, bairro, cidade, cep, uf estado,  identificador-agua, matricula-agua, identificador-energia, matrícula-energia, nome-proprietario, nome-inquilino-atual) 
 -- cliente faz a locação.
 -- tipo de locação (residencial, comercial, curto evento)
--- 
+-- aluguel
+--- separar por imóvel, entrar em imóvel e ver os dados mensal do aluguel, pagamento mensal, com comprovante de pagamento, dados do pagador.
