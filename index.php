@@ -19,43 +19,49 @@
 <body>
 
     <header>
-        <div class="logo">Logomarca</div>
-        <nav class="desktop">
-            <ul>
-                <li><a href="#">Principal</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-        <nav class="mobile">
-            <ul>
-                <li><a href="#">Principal</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
+        <div class="center">
+            <div class="logo left">Logomarca</div>
+            <nav class="desktop right">
+                <ul>
+                    <li><a href="index.php">Principal</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+            <nav class="mobile right ">
+                <ul>
+                    <li><a href="index.php">Principal</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </div><!-- center -->
     </header><!-- menu desktop e mobile -->
 
     <section class="banner-principal">
-        <form>
-            <h2>Qual o seu melhor e-mail ?</h2>
-            <input type="email" name="email" required />
-            <input type="submit" name="acao" value="Cadastrar!">
-        </form>
+        <div class="overlay"></div>
+        <div class="center">
+            <form>
+                <h2>Qual o seu melhor e-mail ?</h2>
+                <input type="email" name="email" required />
+                <input type="submit" name="acao" value="Cadastrar!">
+            </form>
+        </div><!-- center -->
     </section><!-- banner-principal -->
 
     <section class="descricao-autor">
         <div class="center">
             <div class="w50 left">
-                <h2>Chirley</h2>
+                <h2>Sobre nós</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, molestiae dolorem nam vitae fuga, eos, amet sed totam necessitatibus adipisci quasi. Excepturi perspiciatis debitis qui autem eaque. Beatae, maxime ullam!</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, molestiae dolorem nam vitae fuga, eos, amet sed totam necessitatibus adipisci quasi.</p>
             </div><!--w50-->
 
             <div class="w50 left">
-                <img src="images/autor.png" width="300px" alt="">
+                <img class="right" src="assets/images/autor.png" alt="">
             </div><!--w50-->
             <div class="clear"></div>
         </div><!-- center -->
@@ -63,7 +69,7 @@
 
 
     <section class="especialidades">
-        <div class="center left">
+        <div class="center">
             <h2 class="title">Especialidades</h2>
             <div class="w33 left box-especialidade">
                 <i class="fa fa-css3" aria-hidden="true"></i>
