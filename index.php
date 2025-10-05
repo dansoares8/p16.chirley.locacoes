@@ -8,6 +8,13 @@
     <!-- meta seo --> 
      <meta name="description" content="Chirley Locações, Locação de Imóveis Residenciais, Comerciais e Espaços para Eventos">
      <meta name="keywords" content="Chirley Locações, Locação, Imóveis, Residenciais, Casas, Aluguel de Casas, Aluguel para Eventos, Clube, Chácara, Férias, Descanso">
+
+     <!-- link css --> 
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <!-- link google fonts --> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -41,25 +48,74 @@
 
     <section class="descricao-autor">
         <div class="center">
-            <div class="w50">
+            <div class="w50 left">
                 <h2>Chirley</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, molestiae dolorem nam vitae fuga, eos, amet sed totam necessitatibus adipisci quasi. Excepturi perspiciatis debitis qui autem eaque. Beatae, maxime ullam!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, molestiae dolorem nam vitae fuga, eos, amet sed totam necessitatibus adipisci quasi. Excepturi perspiciatis debitis qui autem eaque. Beatae, maxime ullam!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, molestiae dolorem nam vitae fuga, eos, amet sed totam necessitatibus adipisci quasi.</p>
             </div><!--w50-->
 
-            <div class="w50">
-                <img src="images/autor.jpg" alt="">
+            <div class="w50 left">
+                <img src="images/autor.png" width="300px" alt="">
             </div><!--w50-->
-        </div>
+            <div class="clear"></div>
+        </div><!-- center -->
     </section><!-- descricao-autor -->
 
 
     <section class="especialidades">
-        <h2 class="title">Especialidades</h2>
-        <div class="center">
-
-        </div>
+        <div class="center left">
+            <h2 class="title">Especialidades</h2>
+            <div class="w33 left box-especialidade">
+                <i class="fa fa-css3" aria-hidden="true"></i>
+                <h3>CSS3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div><!-- box-especialidade -->
+            <div class="w33 left box-especialidade">
+                <h3><i class="fa fa-html5" aria-hidden="true"></i></h3>
+                <h3>HTML5</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div><!-- box-especialidade -->
+            <div class="w33 left box-especialidade">
+                <i class="fa fa-code" aria-hidden="true"></i>
+                <h3>JavaScript</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div><!-- box-especialidade -->
+        </div><!-- center -->
     </section><!-- especialidades -->
+
+
+    <section class="extras">
+        <div class="center">
+            <div class="w50 left">
+                <h2 class="title">Depoimentos</h2>
+                <div class="depoimento-single">
+                    <p class="depoimento-single">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="nome-autor">Lorem Ipsum.</p>
+                </div><!-- depoimento-single -->
+                <div class="depoimento-single">
+                    <p class="depoimento-single">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="nome-autor">Lorem Ipsum.</p>
+                </div><!-- depoimento-single -->
+                <div class="depoimento-single">
+                    <p class="depoimento-single">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="nome-autor">Lorem Ipsum.</p>
+                </div><!-- depoimento-single -->
+            </div><!-- w50 -->
+
+            <div class="w50 left">
+                <h2 class="title">Serviços</h2>
+                <div class="servicos">
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    </ul>
+                </div>
+
+            </div><!-- w50 -->
+            <div class="clear"></div>
+        </div><!-- center -->
+    </section><!-- extras -->
 
 
 
