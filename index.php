@@ -42,7 +42,7 @@
     <section class="descricao-autor">
         <div class="center">
             <div class="w50">
-                <h2>Guilherme C. Grillo</h2>
+                <h2>Chirley</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, molestiae dolorem nam vitae fuga, eos, amet sed totam necessitatibus adipisci quasi. Excepturi perspiciatis debitis qui autem eaque. Beatae, maxime ullam!</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, molestiae dolorem nam vitae fuga, eos, amet sed totam necessitatibus adipisci quasi. Excepturi perspiciatis debitis qui autem eaque. Beatae, maxime ullam!</p>
             </div><!--w50-->
