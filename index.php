@@ -41,6 +41,7 @@
         </div><!-- center -->
     </header><!-- menu desktop e mobile -->
 
+
     <section class="banner-principal">
         <div class="overlay"></div>
         <div class="center">
@@ -52,6 +53,7 @@
         </div><!-- center -->
     </section><!-- banner-principal -->
 
+    
     <section class="descricao-autor">
         <div class="center">
             <div class="w50 left">
