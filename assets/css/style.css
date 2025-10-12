@@ -122,7 +122,8 @@ section.banner-principal form input[type="submit"]{
 
 /*-- descrição autor --*/
 img{
-    max-width: 100%;
+    width: 100%;
+    max-width: 300px;
 }
 section.descricao-autor{
     padding: 30px 0;
@@ -141,6 +142,35 @@ section.descricao-autor p{
 
 /*-- media screen - responsividade --*/
 @media screen and (max-width: 768px){
+    nav.desktop{ display: none; }
+    nav.mobile{ display: block; }
+    nav.mobile ul{
+        top: 52px;
+        z-index: 3;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    nav.mobile li{
+        font-weight: 300;
+        font-size: 17px;
+        padding: 8px 0;
+        display: block;
+        background: white;
+        border-bottom: 1px solid #ccc;
+    }
+    nav.mobile li a{
+        display: block;
+        color: #444;
+        text-decoration: none;
+    }
+    .botao-menu-mobile{
+        font-size: 24px;
+        cursor: pointer;
+        color: white;
+    }
     img{
         float: none !important;
         display: block;

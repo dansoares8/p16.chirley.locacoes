@@ -30,6 +30,9 @@
                 </ul>
             </nav>
             <nav class="mobile right ">
+                <div class="botao-menu-mobile">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
                 <ul>
                     <li><a href="index.php">Principal</a></li>
                     <li><a href="#">Serviços</a></li>
