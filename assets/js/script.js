@@ -1,4 +1,5 @@
 $(function(){
+    
     $('var.mobile').click(function(){
         var listaMenu = $('nav.mobile ul');
 

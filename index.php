@@ -129,8 +129,17 @@
     </section><!-- extras -->
 
 
+    <footer>
+        <h3 class="rodape-title">Chirley Locações</h3>
+        <p>Todos os direitos reservados &copy; <?php echo date('Y'); ?></p>
+    </footer>
+
+
 <!-- script --> 
  <script src="assets/js/script.js"></script>
  <script src="assets/js/jquery.js"></script>
+
+
+
 </body>
 </html>
