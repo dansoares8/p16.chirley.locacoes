@@ -145,24 +145,22 @@ section.descricao-autor p{
     nav.desktop{ display: none; }
     nav.mobile{ display: block; }
     nav.mobile ul{
+        display: none;
         top: 52px;
         z-index: 3;
         position: absolute;
         left: 0;
         width: 100%;
-        display: block;
         text-align: center;
     }
     nav.mobile li{
         font-weight: 300;
         font-size: 17px;
         padding: 8px 0;
-        display: block;
         background: white;
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid #CCC;
     }
     nav.mobile li a{
-        display: block;
         color: #444;
         text-decoration: none;
     }
@@ -170,6 +168,7 @@ section.descricao-autor p{
         font-size: 24px;
         cursor: pointer;
         color: white;
+        display: block !important;
     }
     img{
         float: none !important;
